@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import LandingPage from './components/pages/LandingPage'
 
 const App:React.FC = () => {
   return (
-    <div>
-      <Button>Click Me</Button>
+    <div className='w-[100%] h-[100vh] font-roboto'>
+      <LandingPage/>
     </div>
   )
 }
